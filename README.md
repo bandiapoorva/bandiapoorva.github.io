@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 body {
   font-size: 16px;
@@ -151,14 +154,16 @@ footer > span {
   }
 }
 </style>
-
+</head>
+<head>
 <script>
 $(function(){
   var year  = new Date().getFullYear();
   $(".copyright-date").text(year);
 });
 </script>
-
+</head>
+<body>
 <div class="header-section">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -281,3 +286,5 @@ $(function(){
   </div>
   <span>Copyright &copy; Anthony Anaedu <span class="copyright-date">2015</span>. All rights reserved.</span>
 </footer>
+</body>
+</html>
