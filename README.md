@@ -120,26 +120,22 @@
   </div>
   <span>Copyright &copy; Anthony Anaedu <span class="copyright-date">2015</span>. All rights reserved.</span>
 </footer>
-
+<style>
 body {
   font-size: 16px;
   line-height: 1.5;
 }
-
 .navbar {
   font-size: 15px;
 }
-
 #navbar > ul {
   color: #fbfbfb;
   font-weight: 700;
   text-transform: uppercase;
 }
-
 #navbar > ul > li.active > a {
   background-color: transparent;
 }
-
 .navbar-inverse .navbar-brand {
   font-weight: 600;
   font-size: 24px;
@@ -147,14 +143,12 @@ body {
   text-transform: uppercase;
   font-style: cursive;
 }
-
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 3.0em;
   padding-bottom: 20px;
 }
-
 .header-section {
   background-image: url("https://images.unsplash.com/7/Top_view.jpg?fit=crop&fm=jpg&h=700&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1375");
   background-repeat: no-repeat;
@@ -164,46 +158,37 @@ h1 {
   height: 100vh;
   width: 100%;
 }
-
 .header-section h1 {
   font-size: 5.5rem;
 }
-
 .intro-text {
   padding-top: 150px;
   color: #ffffff;
 }
-
 .intro-text p {
   font-size: 22px;
   font-weight: normal;
   font-style: italics;
 }
-
 .intro-btns {
   margin-top: 40px;
 }
-
 .profile-pic {
   margin: 20px auto;
   width: 250px;
 }
-
 .profile-pic img {
   border-radius: 100%;
   border: 3px solid grey;
   margin-bottom: 40px;
 }
-
 .profile-pic img:hover {
   border-radius: 3px;
 }
-
 .social-icons {
   display: inline;
   margin: 40px;
 }
-
 .social-icons a {
   color: #fff;
   text-align: center;
@@ -215,12 +200,10 @@ h1 {
   padding: 15px;
   border-radius: 100%;
 }
-
 .social-icons a:hover {
   color: #000;
   background-color: #fff;
 }
-
 #about {
   padding-top: 20px;
   background-color: #fff;
@@ -228,77 +211,60 @@ h1 {
   padding-bottom: 20px;
   font-size: 18px;
 }
-
 #portfolio {
   padding-top: 25px;
 }
-
 .portfolio-title {
   font-weight: bold;
 }
-
 .portfolio-subtitle {
   font-style: italic;
 }
-
 .thumbnail:hover {
   background-color: #333;
   color: #ffffff;
 }
-
 #about h1 {
   padding-top: 20px;
 }
-
 #contact {
   background-color: #333;
 }
-
 #contact p {
   color: #fbfbfb;
   font-size: 24px;
   padding: 20px 0;
 }
-
 .contact-btn {
   font-weight: 600;
   font-size: 16px;
 }
-
 footer {
   background-color: #131313;
 }
-
 footer > span {
   font-size: 15px;
   color: #555;
 }
-
 .footer-nav {
   padding: 20px;
   text-transform: uppercase;
   text-align: center;
 }
-
 .footer-nav li {
   display: inline;
   font-weight: 600;
   padding-right: 20px;
 }
-
 .footer-nav a {
   color: #79797B;
   text-decoration: none;
   font-size: 15px;
 }
-
 .footer-nav a:hover {
   color: #fbfbfb;
 }
-
-
 /* Small devices (tablets, 768px and up) */
-
 @media (min-width: @screen-sm-min) {
   .intro-text {
     padding-top: 50px;
@@ -306,3 +272,4 @@ footer > span {
     font-size: 14px;
   }
 }
+</style>
