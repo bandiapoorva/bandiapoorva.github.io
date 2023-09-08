@@ -131,6 +131,9 @@ ul li a:hover {
 }
 
 .description {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
   line-height: 1.5rem;
   color: var(--text-light);
   margin-bottom: 2rem;
@@ -231,15 +234,12 @@ ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-.p{
+.p {
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 2px;
-  padding: 1rem 2rem;
-  outline: none;
-  border: 2px solid var(--primary-color);
-  border-radius: 10px;
-  transition: 0.3s;
-  cursor: pointer;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
 }
 
