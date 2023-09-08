@@ -234,12 +234,17 @@ ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-.p {
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  line-height: 1.5rem;
-  color: var(--text-light);
-  margin-bottom: 2rem;
-}
 
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  margin: 10px 0;
+  max-width: 600px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
