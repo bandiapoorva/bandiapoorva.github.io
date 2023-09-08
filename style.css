@@ -231,7 +231,7 @@ ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-p{
+.p{
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 2px;
