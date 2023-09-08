@@ -231,4 +231,15 @@ ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
+p{
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
 
